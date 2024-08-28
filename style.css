@@ -1,0 +1,17 @@
+*{
+  
+  font-family: poppins;
+  box-sizing: border-box;
+}
+h1{
+    padding: 50px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+body{
+
+}
