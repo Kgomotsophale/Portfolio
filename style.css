@@ -1,10 +1,13 @@
 body{
-  background-image: url('image/background/69753bba-8daa-4774-96d0-20003052f44c.jpg');
+  background-image: url('image/background/pexels-deruzzi-6554702.jpg');
   color: #fff;
   text-align: center;
   margin-left: 150px;
-  wid
+  background-size:cover;
+  background-position:center;
+  
 }
+
 nav ul{
   display:flex;
   align-items:center;
@@ -21,7 +24,7 @@ nav ul li{
 
 }
 nav ul li a{
-  color:#ff0045;
+  color:#fff;
   text-decoration: none;
   font-size: 20px;
   position: relative;
@@ -38,11 +41,11 @@ h1{
     text-align: center;
     margin-top: 60px;
     font-size: 50px;
-    color:#ff0045;
+    color:#fff;
 }
 h2{
     font-weight: 700;
-    color: #ff0045;
+    color: #fff;
 }
 
 .contact-left{
@@ -55,16 +58,22 @@ h2{
     
     
 }
+.contact{
+    display:flex;
+    
+
+}
 
 form input, form textarea{
     width: 100%;
-    border:2px solid #ff0045;
-    background: #0f0f0f;
+    border:2px solid #ff9b05;
+    background: #ed642d;
     padding:15px;
     margin: 15px 0;
-    color:#fff;
+    color:#ff9b05;
     font-size: 18px;
     border-radius: 6px;
+    
 }
 
 
@@ -80,15 +89,15 @@ form input, form textarea{
     }
     button{
         padding: 13px 30px;
-        color:white;
-        background-color: #ff0045;
-        border: 2px solid;
+        color:#fff;
+        background-color:#ff9b05;
+        border: 3px solid #ed642d;
         border-radius: 6px;
     }
 button:hover{
-    background-color: #000;
+    background-color: #ed642d;
     color: white;
-    border:2px solid #ff0045 ;
+    border:2px solid #ff9b05 ;
 }
 footer {
     margin-top: 60px;
