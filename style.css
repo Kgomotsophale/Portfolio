@@ -29,7 +29,7 @@ nav ul li{
 nav ul li a{
   color:#f3abb6;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   position: relative;
   font-weight: 600;
   text-shadow: 1px 1px 1px #9f8189;
@@ -38,7 +38,10 @@ nav ul li a{
 }
 nav ul li a:hover{
   width: 100%;
-  color:#fff;
+  color:#80676d;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #f3abb6;
+
 }
 section{
   width:100%;
@@ -78,11 +81,20 @@ button{
   border: 2px solid #9f8189;
  box-shadow:0 0 10px #80676d;
 }
+button:hover{
+background: #80676d;
+color: #f3abb6;
+  border: 2px solid #dc919c ;
+ box-shadow:0 0 10px #80676d;
+ cursor: pointer;
+ 
+
+}
 .social-links i{
   margin-top: 100px;
   font-size: 25px;
-  color: #f3abb6;
-   box-shadow:0 0 10px #80676d;
+  color: #dc919c;
+   
 }
 .intro{
   margin-top: 100px;
