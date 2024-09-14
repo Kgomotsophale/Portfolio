@@ -199,10 +199,15 @@ img{
 .row {
   display: flex;
 }
+
 .column {
-  flex: 50%; 
+  flex:50%;
+  
 }
 .form-title{
+  
+  margin-top: 70px;
+ position: relative;
   font-size: 50px;
   font-weight: 600;
   color:#f3abb6;
@@ -215,7 +220,8 @@ img{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px 0px;
+ padding: 20px 0px;
+  left:500px;
   
 }
 .user-input-box{
@@ -296,7 +302,7 @@ font-weight: 600;
     width: 100%;
   }
   .work-list{
-    display:block
+    display:block;
   }
   .layer{
     font-size: 5px;
