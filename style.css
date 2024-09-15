@@ -94,6 +94,10 @@ color: #f3abb6;
   color: #dc919c;
    
 }
+.social-links :hover{
+  color: #815f68;
+
+}
 .intro{
   margin-top: 100px;
 }
